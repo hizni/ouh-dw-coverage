@@ -1,0 +1,36 @@
+.month {
+    fill: none;
+    stroke: #000;
+    stroke-width: 2px;
+}
+.week {
+    fill: #fff;
+    stroke: #ccc;
+}
+.day {
+    fill: #fff;
+    stroke: #ccc;
+}
+text    {
+    font-family:sans-serif;
+    font-size:1.5em;
+}
+.dayLabel   {
+    fill:#aaa;
+    font-size:0.8em;
+}
+.yearLabel   {
+    fill:#aaa;
+    font-size:0.8em;
+}
+.monthLabel {
+    text-anchor:middle;
+    font-size:0.8em;
+    fill:#aaa;
+}
+.yearTitle  {
+    fill:#aaa;
+    font-size:1.2em;
+}
+
+.key    {font-size:0.5em;}

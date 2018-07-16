@@ -1,0 +1,46 @@
+Source host,Source database,Source schema,Source table,Verbose description
+OXNETDWP01,BloodTrack,raw,vw_BloodStatus,The number of blood produces that were ordered
+OXNETDWP01,BloodTrack,raw,vw_Transaction,Transactions that involve Blood products
+OXNETDWP01,Cardiac_Surveillance_ARCHIVE,raw,surveillance,Number of admissions recorded by Cardiac Surveillance system
+OXNETDWP01,Carevue_Old_ARCHIVE,raw,MEDORDERS,Gets the number of medication ordering events that occurred 
+OXNETDWP01,Carevue_Old_ARCHIVE,raw,MEDEVENTS,Gets the number of medical events that occurred
+OXNETDWP01,Carevue_Old_ARCHIVE,raw,CHARTEVENTS,Gets the number of distinct charting events recorded
+OXNETDWP01,Carevue_Old_ARCHIVE,raw,CHARTEVENTS,Gets the number of distinct patients that have charting events recorded for them
+OXNETDWP01,CIS_Reporting_EXTRACT,raw,A_PtDvtProphylaxis,Gets the number of encounters that were recorded for patients with DVT Prophylaxis
+OXNETDWP01,CIS_Reporting_EXTRACT,raw,PtOrder,Gets the number of orders placed
+OXNETDWP01,CIS_Reporting_EXTRACT,raw,PtAssessment,Gets the number of patient assessments that have been charted
+OXNETDWP01,CIS_Reporting_EXTRACT,raw,PtLabResult,Gets the number of patient lab results and when they have been charted
+OXNETDWP01,CIS_Reporting_EXTRACT,raw,PtMedicationOrder,The number of patient medication orders grouped by when the order had been made
+OXNETDWP01,Clinical Events,raw,v_IM200_ClinicalEventExtract_Details,The number of clinical events occuring from non-NOC based systems grouped by the clinically significant datetime of the event
+OXNETDWP01,Clinical Events,raw,v_NOC_IM200_ClinicalEventExtract_Details,The number of clinical events occuring from NOC based systems grouped by the clinically significant datetime of the event
+OXNETDWP01,Community_ARCHIVE,,,
+OXNETDWP01,Community_Old_ARCHIVE,,,
+OXNETDWP01,EPDS_PSS2,raw,PATIENT_DIAGNOSIS,The number of diagnoses made grouped by the date they were made
+OXNETDWP01,EPDS_PSS3,raw,PATIENT_DIAGNOSIS,The number of distinct spells that a diagnosis relate to grouped by the date they were made
+OXNETDWP01,EPDS_PSS4,raw,PATIENT_PROCEDURE,The number of patient procedures grouped by the date that they occur
+OXNETDWP01,EPDS_PSS5,raw,WARD_STAY,The number of ward stays grouped together by the date that they started
+OXNETDWP01,EPDS_PSS6,raw,EPISODE_INDEX,The number of episodes that have occurred grouped together by the date that they started
+OXNETDWP01,EpiCenter_EXTRACT,raw,tblID,The number of tests that have been returned grouped by the date that they were returned
+OXNETDWP01,EpiCenter_EXTRACT,raw,tblReadings,The number of readings that been returned grouped by the date that they were taken
+OXNETDWP01,EpiCenter_EXTRACT,raw,tblReadings,The number of distinct tests that the returned readings that been returned grouped by the date that they were taken
+OXNETDWP01,EpiCenter_EXTRACT,raw,tblSpecimenLog,The number of specimens that where logged into the system to be tested grouped by the date that they were logged in.
+OXNETDWP01,Genetic_EXTRACT,raw,clinicalsample,The number of clinical samples that were received grouped by the date that they were received
+OXNETDWP01,Histopathology_TIE,raw,cdrResults,The number of HL7 messages that were sent from the TIE messaging feed grouped by the date they written into the database.
+OXNETDWP01,Radiology_TIE,raw,cdrResults,The number of HL7 messages that were sent from the TIE messaging feed grouped by the date they written into the database.
+OXNETDWP01,JONAH_ARCHIVE,raw,jonah_research,
+OXNETDWP01,JONAH_ARCHIVE,raw,old_JONAH_RESEARCH,
+OXNETDWP01,LIMS_Old_PSS2,raw,collection,The number of requests that were made grouped by the date the request occurred
+OXNETDWP01,LIMS_Old_PSS2,raw,requestspoct,The number of requests that were made grouped by the date the request occurred (specific to point of care systems)
+OXNETDWP01,LIMS_Old_PSS2,raw,batch,The number of result sets that were returned grouped by the date that they were authorised
+OXNETDWP01,LIMS_Old_PSS2,raw,setspoct,The number of result sets that were returned grouped by the date that they were authorised (specific to point of care systems)
+OXNETDWP01,Maternity,raw,v_CMT_SCDTerm,
+,,,v_CMT_SCDTermData,
+OXNETDWP01,NOC_Activity,raw,,
+OXNETDWP01,NOC_Activity_ARCHIVE,,,
+OXNETDWP01,Prescribing_ABX,raw,v_CMT_MedAdminEvent,Gets the number of medication administration events grouping them by the actual beginning date of the event
+OXNETDWP01,Prescribing_ABX,raw,v_CMT_Orders,Gets the number of medication orders placed grouping them by the date they were originally ordered
+OXNETDWP01,Prescribing_ARCHIVE,raw,v_CMT_MedAdminEvent,Gets the number of medication administration events grouping them by the actual beginning date of the event [using an archived data source]
+OXNETDWP01,Prescribing_ARCHIVE,raw,v_CMT_Orders,Gets the number of medication orders placed grouping them by the date they were originally ordered [using an archived data source]
+OXNETDWP01,Proton_ARCHIVE,raw,drugs,Gets the number of drugs that were prescribed for a patient grouped by the date that the treatment course began
+OXNETDWP01,SUNQUEST,dbo,GLRES_View,Gets the number of results that have been received by labs and groups them by the date that they were collected. Active table so only keeps a recent subset of the data.
+OXNETDWP01,SUNQUEST,dbo,GLARK_View,Gets the number of results that have been received by labs and groups them by the date that they were collected. 
